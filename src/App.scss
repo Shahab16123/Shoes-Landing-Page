@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+li.list-inline-item {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.navbutton {
+  width: 100px;
+  height: 32px;
+  padding: 6px 16px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50px;
+}
+.navbutton:hover {
+  background-color: red;
+  color: white;
+}
+.hero-section {
+  margin-top: 50px;
+}
+.maintext {
+  color: #000;
+  font-family: Poppins;
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 102px;
+}
+.main-para {
+  width: 404px;
+  height: 91px;
+}
+.main-para {
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 36px;
+  margin-bottom: 36px;
+
+}
+.shopnow-btn {
+  padding: 6px 16px;
+  background: red;
+  border: red;
+  font-weight: 600;
+}
+
+.shopnow-btn:hover {
+  color: white;
+  background: red;
+}
+.cata-btn {
+  padding: 6px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: black;
+  margin: 0px 0px 0px 20px;
+  background: none;
+  border: 1px solid black;
+}
+.cata-btn:hover {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.shopping {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  color:white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.brands-logo{
+  cursor: pointer;
+}
+.brands-logo img {
+  margin: 10px;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
